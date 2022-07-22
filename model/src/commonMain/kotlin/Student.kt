@@ -10,6 +10,4 @@ class Student(
 ) {
     val fullname: String
         get() = "$firstname $surname $group "
-    val NewView : String
-        get () = "$firstname $surname $group"
 }
